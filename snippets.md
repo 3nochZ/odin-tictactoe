@@ -5,3 +5,5 @@ node
 
 
 node --watch script.js
+
+board.map(row => [...row])
