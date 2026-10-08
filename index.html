@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+
+	<form id="setup">
+		<label>Player X <input type="text" id="p1-name" placeholder="P1"></label>
+		<label>Player O <input type="text" id="p2-name" placeholder="P2"></label>
+		<button type="submit">Start</button>
+	</form>
+
+	<p id="status"></p>
+
+	<!-- render() fills this -->
+	<div id="board"></div>
+
+	<button id="restart" type="button">Restart</button>
+</body>
+</html>

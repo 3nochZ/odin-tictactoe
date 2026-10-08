@@ -1,0 +1,24 @@
+body {
+	font-family: system-ui, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+#board {
+	display: grid;
+	grid-template-columns: repeat(3, 80px);
+	grid-template-rows: repeat(3, 80px);
+	gap: 4px;
+}
+
+/* style whatever elements your render() creates */
+#board button {
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+#board button:disabled {
+	cursor: default;
+}
